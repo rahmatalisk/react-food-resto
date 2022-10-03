@@ -1,0 +1,10 @@
+.menu{
+    background-color:#EEEEEE;
+    padding: 3rem 7%;
+
+}
+.menu-box-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}

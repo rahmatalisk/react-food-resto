@@ -1,0 +1,45 @@
+.box{
+    border: 3px solid rgb(164, 162, 162);
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.hidden-icon{
+    display: flex;
+   background-color: blue;
+   visibility: hidden;
+}
+
+.box img{
+    height: 12rem;
+}
+
+
+.box h3{
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.box i, .box span{
+    color: var(--green);
+}
+.box i{
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+.box span{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+.box-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-footer .btn{
+    margin-top: 0;
+}

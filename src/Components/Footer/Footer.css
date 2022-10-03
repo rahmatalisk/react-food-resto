@@ -1,0 +1,43 @@
+.footer {
+    padding: 2rem 7% 0.5rem;
+    background-color: rgb(248, 244, 244);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-bottom: 1px solid var(--light-color);
+    padding-bottom: 1rem;
+}
+
+.content .link-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.content .link-group a {
+    color: var(--light-color);
+    text-decoration: solid;
+}
+
+.content>span {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.content .link-group a:hover {
+    color: var(--green);
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+}
+
+.footer p{
+    text-align: center;
+    margin-top: 2rem;
+}
+.footer p > span{
+    color: var(--green);
+}

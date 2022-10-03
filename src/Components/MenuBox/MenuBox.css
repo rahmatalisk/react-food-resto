@@ -1,0 +1,39 @@
+
+.menu-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border: 2px solid rgb(179, 169, 169);
+    border-radius: 5px;
+    gap: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+
+.img-container img{
+    max-height: 13rem;
+    border-radius: 5px;
+}
+
+.content i{
+    color: var(--green);
+    margin: 0 2px;
+    font-size: 1.2rem;
+}
+.content h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: var(--black);
+}
+.content p{
+    color: var(--light-color);
+    margin: 1rem 0;
+}
+.price{
+    font-size: 2rem;
+    color: var(--green);
+}

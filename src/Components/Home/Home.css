@@ -1,0 +1,52 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 7%;
+}
+
+.banner .b-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.banner .b-left p {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.banner .b-left p:nth-child(1) {
+    color: var(--green);
+}
+
+.banner .b-left h1 {
+    font-size: 4rem;
+}
+
+
+.btn {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    color: #fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding:0.5rem 1rem;
+    width: 10rem;
+}
+.btn:hover{
+    letter-spacing: 0.1rem;
+    background-color: var(--green);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        flex-direction: column;
+    }
+}
